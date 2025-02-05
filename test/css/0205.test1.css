@@ -1,0 +1,57 @@
+body { 
+    margin: 0; 
+    background-color: #b5d6f7;
+}
+
+form {
+    width: 400px;
+    background-color: #f0f0f0;
+    margin: 100px auto;
+
+    padding: 10px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.title {
+    width: 150px;
+    height: 50px;
+    /* background-color: pink; */
+}
+.inform {
+    width: 250px;
+
+    /* background-color: skyblue; */
+}
+.inform > input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px dashed;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.inform {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.sm_txt {
+    font-size: 12px;
+}
+.inform2 {
+    align-items: start;
+}
+
+.btn_submit {
+    width: 100%;
+    height: 50px;
+    background: greenyellow;
+    color: green;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
